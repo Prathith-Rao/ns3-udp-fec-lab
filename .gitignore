@@ -1,0 +1,28 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# New local experiments (curated published runs are under data/)
+results/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local configuration and credentials
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Compiler/editor outputs
+*.o
+*.exe
+*.aux
+*.synctex.gz
+
+# Measured fixtures are versioned in measured-data.zip; setup.sh extracts data/.
+/data/
